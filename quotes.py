@@ -1,3 +1,4 @@
+#Program randomly picks quote from a downloaded webpage, can be called as a module to output
 import random
 from bs4 import BeautifulSoup
 #filepath = "D:\\Downloaded files\\abcd.html"
