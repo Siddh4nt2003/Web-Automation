@@ -4,9 +4,9 @@ from selenium.webdriver.chrome.options import Options
 from selenium import webdriver
 options = Options()
 
-options.add_argument(r"user-data-dir=C:\Users\sidr2\AppData\Local\Google\Chrome\User Data")
+options.add_argument(r"Profile path here")
 options.add_argument("--profile-directory=Profile 4")
-driver = webdriver.Chrome(r"D:\Homework\chromedriver_win32\chromedriver.exe",options=options)
+driver = webdriver.Chrome(r"Chromedriver path here",options=options)
 
 #class links
 mat101m = "https://teams.microsoft.com/l/meetup-join/19%3aMdi5h-QuTwuheHieTmhaj2XQkBAUa7J66VdBBKATZQ01%40thread.tacv2/1635138154358?context=%7b%22Tid%22%3a%22ebbbcd62-c0a9-46ff-a92c-5f2300087164%22%2c%22Oid%22%3a%221c808b6d-4112-425c-946a-4b67326f32b6%22%7d"
